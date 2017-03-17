@@ -24,9 +24,9 @@ s.source = { :git => "https://github.com/bss-duy/caf_ios", :tag => "#{s.version}
 
 # 7
 s.framework = "Foundation"
-s.dependency 'ObjectMapper', '= 2.2.5'
-s.dependency 'RxAlamofire', '= 3.0.2'
-s.dependency 'RxCocoa', '= 3.3.1'
+s.dependency 'ObjectMapper', '~> 2.2.5'
+s.dependency 'RxAlamofire', '~> 3.0.2'
+s.dependency 'RxCocoa', '~> 3.3.1'
 
 
 # 8
