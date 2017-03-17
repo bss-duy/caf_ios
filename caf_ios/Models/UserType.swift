@@ -6,7 +6,7 @@
 //  Copyright © 2017 Duy Nguyen. All rights reserved.
 //
 
-protocol UserType {
+public protocol UserType {
     var id : String { get }
     var username : String { get }
     var accessToken : String { get }
